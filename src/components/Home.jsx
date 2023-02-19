@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header';
 import Code from './Code';
+import Result from './Result';
 
  function Home() {
   return (
@@ -9,6 +10,7 @@ import Code from './Code';
      <React.Fragment>  
         <Header/>
         <Code/>
+        <Result/>
     </React.Fragment>
   )
 }
