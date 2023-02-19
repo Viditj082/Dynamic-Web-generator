@@ -10,7 +10,7 @@ import Result from './Result';
      <React.Fragment>  
         <Header/>
         <Code/>
-        <Result/>
+     <Result className="result"/>
     </React.Fragment>
   )
 }

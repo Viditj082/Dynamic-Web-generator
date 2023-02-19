@@ -4,10 +4,7 @@ import { DataContext } from '../context/DataProvider'
 
 export default function Result() {
   
-    
-
   const {html,css,js}=useContext(DataContext);
-  
   const sourceCode=`
   <html>
   <body>${html}</body>

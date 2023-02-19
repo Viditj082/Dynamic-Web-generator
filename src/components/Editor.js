@@ -9,7 +9,7 @@ import 'codemirror/theme/material.css';
 import 'codemirror/mode/xml/xml';
 import 'codemirror/mode/javascript/javascript';
 import 'codemirror/mode/css/css';
-import 'codemirror/addon/edit/closebrackets'
+
 
 const Container=styled(Box)({
     flexGrow:1,
@@ -23,7 +23,7 @@ const Container=styled(Box)({
 export default function Editor({heading,icon,color,mode,value,onChange}) {
 
    const HandleChange=(editor,data,value)=>{
-       onChange(value);
+    onChange(value);
    }
    
     const Heading=styled(Box)({
@@ -85,7 +85,6 @@ const [open,setOpen]=useState(true)
             mode:mode,
             theme:'material',
             lineNumbers:true,
-            autoCloseBrackets:true
         }}
     /> 
     </Container>

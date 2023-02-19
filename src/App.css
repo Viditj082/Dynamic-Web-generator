@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
 .CodeMirror{
   height:340px !important;
   color:#ffffff;
@@ -10,4 +11,13 @@
 
 .CodeMirror-scroll{
   background: #1d1e22; 
+}
+
+.heading{
+  font-family: 'Mynerve', cursive;
+}
+
+.result{
+  background-color: #1d1e22;
+  min-height: 50%;
 }

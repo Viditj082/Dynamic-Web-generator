@@ -1,11 +1,12 @@
 import React from 'react'
+  
 import {AppBar,Toolbar,styled}  from '@mui/material'
 
 const Container=styled(AppBar)({
    background:'#060606',
    color:'yellow',
    heigth:'12vh',
-   padding:'0.6rem'
+   padding:'0.6rem 0rem'
 })
 
 export default function Header() {
@@ -14,7 +15,8 @@ export default function Header() {
   return (
     <Container position='static'>
         <Toolbar>
-  <img src={logo} alt="logo" style={{width:'50px'}}/>
+  {/* <img src={logo} alt="logo" style={{width:'50px'}}/> */}
+  <h2 className='heading'>DYNAMIC WEB GENERATOR</h2>
         </Toolbar>
     </Container>
   )
